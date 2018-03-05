@@ -22,5 +22,5 @@ app.use('/graphql', graphqlHTTP({
   rootValue: root,
   graphiql: true,
 }));
-app.listen(4000,'YOUR HOST');
-console.log('Running a GraphQL API server at localhost:4000/graphql');
+app.listen(4000,'YOUR HOST here');
+console.log('Running a GraphQL API server at HOST:4000/graphql');
